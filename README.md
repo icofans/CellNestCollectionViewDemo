@@ -22,8 +22,12 @@ Cell嵌套UIColeectionView自动布局获取高度示例
 
 这样是可以实现，但有以下几个问题
 
-如果在collectionView外层再加一层View就会出现部分机型计算的高度不准确
-如果是cell嵌套的tableView呢，怎么获取tableView的高度，网上也有再reloadData后回到主线程获取tableView的高度，这个时候是可以获取真实高度，但tableView不会更新，也会有问题。
+
+1. 如果在collectionView外层再加一层View就会出现部分机型计算的高度不准确
+
+2. 如果是cell嵌套的tableView呢，怎么获取tableView的高度，网上也有再reloadData后回到主线程获取tableView的高度，这个时候是可以获取真实高度，但tableView不会更新，也会有问题。
+
+
 ### 方案2:
 通过重写 - (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority verticalFittingPriority:(UILayoutPriority)verticalFittingPriority 方法
 
