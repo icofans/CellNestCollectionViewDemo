@@ -6,6 +6,7 @@ Cell嵌套UIColeectionView自动布局获取高度示例
 ### 方案1:
 使用collectionViewLayout.collectionViewContentSize来获取collectionView的高度
 
+```objc
 // tableViewCell赋值
 - (void)setModel:(NSArray *)dataArr {
     self.dataArr=dataArr;
@@ -15,6 +16,8 @@ Cell嵌套UIColeectionView自动布局获取高度示例
         make.height.mas_equalTo(self.collectionView.collectionViewLayout.collectionViewContentSize.height);
     }];
 }
+```
+
 这样是可以实现，但有以下几个问题
 
 如果在collectionView外层再加一层View就会出现部分机型计算的高度不准确
@@ -26,6 +29,7 @@ cell是通过systemLayoutSizeFittingSize方法获取contentView高度，然后+�
 
 举例：cell布局如下
 
+```objc
 - (void)setView{
     [self.contentView addSubview:self.bgView];
     [self.bgView addSubview:self.collectionView];
@@ -39,17 +43,22 @@ cell是通过systemLayoutSizeFittingSize方法获取contentView高度，然后+�
         make.left.bottom.top.right.mas_equalTo(0);
     }];
 }
+```
+
 tableViewCell赋值
 
-// tableViewCell赋值
+```objc
 - (void)setModel:(NSArray *)dataArr {
     self.dataArr=dataArr;
     [self.collectionView reloadData];
     [self.collectionView layoutIfNeeded];
     [self.bgView layoutIfNeeded];
 }
+```
+
 计算高度
 
+```objc
 - (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority verticalFittingPriority:(UILayoutPriority)verticalFittingPriority
 {
     // 先对bgview进行布局,这里需对bgView布局后collectionView宽度才会准确
@@ -66,3 +75,4 @@ tableViewCell赋值
     
     return CGSizeMake([UIScreen mainScreen].bounds.size.width, cotentViewH);
 }
+```
