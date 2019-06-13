@@ -3,6 +3,8 @@ Cell嵌套UIColeectionView自动布局获取高度示例
 
 开发过程中我们经常会遇到稍微复杂的视图需要tableView和collectionView的相互嵌套，那么当cell嵌套tableView或者collectionView的时候怎么让cell自动布局撑起来呢，这里以cell嵌套collectionView为例：
 
+![](https://qn.nobady.cn/github/IMG_2610.PNG)
+
 ### 方案1:
 使用collectionViewLayout.collectionViewContentSize来获取collectionView的高度
 
