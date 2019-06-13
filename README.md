@@ -31,7 +31,7 @@ Cell嵌套UIColeectionView自动布局获取高度示例
 ### 方案2:
 通过重写 - (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority verticalFittingPriority:(UILayoutPriority)verticalFittingPriority 方法
 
-cell是通过systemLayoutSizeFittingSize方法获取contentView高度，然后+分割线高度得到cell的高度，因此重写此方法返回真实高度应该是最有效的
+cell是通过systemLayoutSizeFittingSize方法获取contentView高度，然后加上分割线高度得到cell的高度，因此重写此方法返回真实高度应该是最有效的
 
 举例：cell布局如下
 
