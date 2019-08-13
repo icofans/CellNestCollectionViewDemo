@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2833E7E2CC799D151D8E8A8C /* libPods-CellNestCollectionViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6BCE970D3A4D88FE5DBDAD /* libPods-CellNestCollectionViewDemoTests.a */; };
+		3D7EF5555EE4A5453919066B /* libPods-CellNestCollectionViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D65B3390954FF36F12F849A /* libPods-CellNestCollectionViewDemoUITests.a */; };
+		B59BDC45340DBE687F4EDA3D /* libPods-CellNestCollectionViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C3A2DAE585AB6CBBBAF0F0 /* libPods-CellNestCollectionViewDemo.a */; };
 		F75B1B5F22B22B5E00819322 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1B5E22B22B5E00819322 /* AppDelegate.m */; };
-		F75B1B6222B22B5E00819322 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1B6122B22B5E00819322 /* ViewController.m */; };
 		F75B1B6522B22B5F00819322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B1B6322B22B5F00819322 /* Main.storyboard */; };
 		F75B1B6722B22B9B00819322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75B1B6622B22B9B00819322 /* Assets.xcassets */; };
 		F75B1B6A22B22B9B00819322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B1B6822B22B9B00819322 /* LaunchScreen.storyboard */; };
 		F75B1B6D22B22B9B00819322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1B6C22B22B9B00819322 /* main.m */; };
 		F75B1B7722B22B9D00819322 /* CellNestCollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1B7622B22B9D00819322 /* CellNestCollectionViewDemoTests.m */; };
 		F75B1B8222B22B9D00819322 /* CellNestCollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1B8122B22B9D00819322 /* CellNestCollectionViewDemoUITests.m */; };
+		F75B1B9E22B22F0900819322 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75B1B9D22B22F0800819322 /* avatar.jpg */; };
+		F75B1BB022B23A6200819322 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1BAA22B23A6200819322 /* DemoTableViewController.m */; };
+		F75B1BB122B23A6200819322 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1BAD22B23A6200819322 /* DemoCollectionViewCell.m */; };
+		F75B1BB222B23A6200819322 /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B1BAE22B23A6200819322 /* DemoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6BCE970D3A4D88FE5DBDAD /* libPods-CellNestCollectionViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellNestCollectionViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33526BBEA40C4372C3626CBF /* Pods-CellNestCollectionViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemoUITests/Pods-CellNestCollectionViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65B253C78333073B8C87686C /* Pods-CellNestCollectionViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemoTests/Pods-CellNestCollectionViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FCFD8F4A6377EC45DD44DCA /* Pods-CellNestCollectionViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemoTests/Pods-CellNestCollectionViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D65B3390954FF36F12F849A /* libPods-CellNestCollectionViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellNestCollectionViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A2FADA31146784C00DAEC5 /* Pods-CellNestCollectionViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemoUITests/Pods-CellNestCollectionViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0C3A2DAE585AB6CBBBAF0F0 /* libPods-CellNestCollectionViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellNestCollectionViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE351940B2A215DA088919F /* Pods-CellNestCollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemo/Pods-CellNestCollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F75B1B5A22B22B5D00819322 /* CellNestCollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellNestCollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75B1B5D22B22B5E00819322 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F75B1B5E22B22B5E00819322 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F75B1B6022B22B5E00819322 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F75B1B6122B22B5E00819322 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F75B1B6422B22B5F00819322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75B1B6622B22B9B00819322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75B1B6922B22B9B00819322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,15 @@
 		F75B1B7D22B22B9D00819322 /* CellNestCollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellNestCollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75B1B8122B22B9D00819322 /* CellNestCollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellNestCollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		F75B1B8322B22B9D00819322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75B1B9D22B22F0800819322 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		F75B1BA922B23A6100819322 /* DemoDataKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDataKey.h; sourceTree = "<group>"; };
+		F75B1BAA22B23A6200819322 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		F75B1BAB22B23A6200819322 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		F75B1BAC22B23A6200819322 /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		F75B1BAD22B23A6200819322 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		F75B1BAE22B23A6200819322 /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		F75B1BAF22B23A6200819322 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		FABAB5DBD8A13F17CE117A23 /* Pods-CellNestCollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellNestCollectionViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellNestCollectionViewDemo/Pods-CellNestCollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59BDC45340DBE687F4EDA3D /* libPods-CellNestCollectionViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2833E7E2CC799D151D8E8A8C /* libPods-CellNestCollectionViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7EF5555EE4A5453919066B /* libPods-CellNestCollectionViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36C4E9ECBB34ADA3F13BED31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C3A2DAE585AB6CBBBAF0F0 /* libPods-CellNestCollectionViewDemo.a */,
+				1B6BCE970D3A4D88FE5DBDAD /* libPods-CellNestCollectionViewDemoTests.a */,
+				7D65B3390954FF36F12F849A /* libPods-CellNestCollectionViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5240B833CF274BB8AA3B2D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FABAB5DBD8A13F17CE117A23 /* Pods-CellNestCollectionViewDemo.debug.xcconfig */,
+				CFE351940B2A215DA088919F /* Pods-CellNestCollectionViewDemo.release.xcconfig */,
+				6FCFD8F4A6377EC45DD44DCA /* Pods-CellNestCollectionViewDemoTests.debug.xcconfig */,
+				65B253C78333073B8C87686C /* Pods-CellNestCollectionViewDemoTests.release.xcconfig */,
+				33526BBEA40C4372C3626CBF /* Pods-CellNestCollectionViewDemoUITests.debug.xcconfig */,
+				90A2FADA31146784C00DAEC5 /* Pods-CellNestCollectionViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F75B1B5122B22B5C00819322 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				F75B1B7522B22B9D00819322 /* CellNestCollectionViewDemoTests */,
 				F75B1B8022B22B9D00819322 /* CellNestCollectionViewDemoUITests */,
 				F75B1B5B22B22B5D00819322 /* Products */,
+				5240B833CF274BB8AA3B2D8C /* Pods */,
+				36C4E9ECBB34ADA3F13BED31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +150,16 @@
 		F75B1B5C22B22B5D00819322 /* CellNestCollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F75B1BAB22B23A6200819322 /* DemoCollectionViewCell.h */,
+				F75B1BAD22B23A6200819322 /* DemoCollectionViewCell.m */,
+				F75B1BA922B23A6100819322 /* DemoDataKey.h */,
+				F75B1BAC22B23A6200819322 /* DemoTableViewCell.h */,
+				F75B1BAE22B23A6200819322 /* DemoTableViewCell.m */,
+				F75B1BAF22B23A6200819322 /* DemoTableViewController.h */,
+				F75B1BAA22B23A6200819322 /* DemoTableViewController.m */,
+				F75B1B9D22B22F0800819322 /* avatar.jpg */,
 				F75B1B5D22B22B5E00819322 /* AppDelegate.h */,
 				F75B1B5E22B22B5E00819322 /* AppDelegate.m */,
-				F75B1B6022B22B5E00819322 /* ViewController.h */,
-				F75B1B6122B22B5E00819322 /* ViewController.m */,
 				F75B1B6322B22B5F00819322 /* Main.storyboard */,
 				F75B1B6622B22B9B00819322 /* Assets.xcassets */,
 				F75B1B6822B22B9B00819322 /* LaunchScreen.storyboard */,
@@ -139,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75B1B8622B22B9D00819322 /* Build configuration list for PBXNativeTarget "CellNestCollectionViewDemo" */;
 			buildPhases = (
+				C5715280E67B74D9A30AF50E /* [CP] Check Pods Manifest.lock */,
 				F75B1B5622B22B5D00819322 /* Sources */,
 				F75B1B5722B22B5D00819322 /* Frameworks */,
 				F75B1B5822B22B5D00819322 /* Resources */,
@@ -156,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75B1B8922B22B9D00819322 /* Build configuration list for PBXNativeTarget "CellNestCollectionViewDemoTests" */;
 			buildPhases = (
+				22B7F8FE7EF8DA66832D8AAA /* [CP] Check Pods Manifest.lock */,
 				F75B1B6E22B22B9D00819322 /* Sources */,
 				F75B1B6F22B22B9D00819322 /* Frameworks */,
 				F75B1B7022B22B9D00819322 /* Resources */,
@@ -174,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75B1B8C22B22B9D00819322 /* Build configuration list for PBXNativeTarget "CellNestCollectionViewDemoUITests" */;
 			buildPhases = (
+				4BFF5E9E548398D46B2D8AF1 /* [CP] Check Pods Manifest.lock */,
 				F75B1B7922B22B9D00819322 /* Sources */,
 				F75B1B7A22B22B9D00819322 /* Frameworks */,
 				F75B1B7B22B22B9D00819322 /* Resources */,
@@ -235,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75B1B9E22B22F0900819322 /* avatar.jpg in Resources */,
 				F75B1B6A22B22B9B00819322 /* LaunchScreen.storyboard in Resources */,
 				F75B1B6722B22B9B00819322 /* Assets.xcassets in Resources */,
 				F75B1B6522B22B5F00819322 /* Main.storyboard in Resources */,
@@ -257,14 +316,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B7F8FE7EF8DA66832D8AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellNestCollectionViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFF5E9E548398D46B2D8AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellNestCollectionViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5715280E67B74D9A30AF50E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellNestCollectionViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F75B1B5622B22B5D00819322 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75B1B6222B22B5E00819322 /* ViewController.m in Sources */,
+				F75B1BB022B23A6200819322 /* DemoTableViewController.m in Sources */,
 				F75B1B6D22B22B9B00819322 /* main.m in Sources */,
+				F75B1BB222B23A6200819322 /* DemoTableViewCell.m in Sources */,
 				F75B1B5F22B22B5E00819322 /* AppDelegate.m in Sources */,
+				F75B1BB122B23A6200819322 /* DemoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +563,13 @@
 		};
 		F75B1B8722B22B9D00819322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABAB5DBD8A13F17CE117A23 /* Pods-CellNestCollectionViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				INFOPLIST_FILE = CellNestCollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +582,13 @@
 		};
 		F75B1B8822B22B9D00819322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE351940B2A215DA088919F /* Pods-CellNestCollectionViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				INFOPLIST_FILE = CellNestCollectionViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +601,7 @@
 		};
 		F75B1B8A22B22B9D00819322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCFD8F4A6377EC45DD44DCA /* Pods-CellNestCollectionViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +621,7 @@
 		};
 		F75B1B8B22B22B9D00819322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B253C78333073B8C87686C /* Pods-CellNestCollectionViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +641,7 @@
 		};
 		F75B1B8D22B22B9D00819322 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33526BBEA40C4372C3626CBF /* Pods-CellNestCollectionViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
@@ -523,6 +660,7 @@
 		};
 		F75B1B8E22B22B9D00819322 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A2FADA31146784C00DAEC5 /* Pods-CellNestCollectionViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
